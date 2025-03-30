@@ -1,9 +1,9 @@
-# 🎾 API REST - Reservas de Pistas de Tenis
+# API REST - Reservas de Pistas de Tenis
 
 Este proyecto es una API REST desarrollada con Spring Boot para gestionar reservas de pistas de tenis.  
 Forma parte de la práctica de la asignatura en Comillas ICAI.
 
-## ✅ Funcionalidad
+## Funcionalidad
 
 Permite realizar operaciones CRUD sobre reservas:
 - **Crear** una reserva
@@ -13,7 +13,7 @@ Permite realizar operaciones CRUD sobre reservas:
 
 ---
 
-## 📌 Tabla de Endpoints
+## Tabla de Endpoints
 
 | Método | Ruta                      | Cuerpo JSON requerido                         | Descripción                                | Respuestas posibles                     |
 |--------|---------------------------|-----------------------------------------------|--------------------------------------------|------------------------------------------|
@@ -24,7 +24,7 @@ Permite realizar operaciones CRUD sobre reservas:
 
 ---
 
-## 🧪 Validaciones
+## Validaciones
 
 - `nombre`: obligatorio
 - `fecha`: obligatoria
@@ -32,7 +32,7 @@ Permite realizar operaciones CRUD sobre reservas:
 
 ---
 
-## 🧾 Ejemplo de error 400 (validación)
+## Ejemplo de error 400 (validación)
 
 ```json
 [
